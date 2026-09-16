@@ -811,7 +811,12 @@
                 const response = await fetch('database.json'); 
                 if (response.ok) {
                     const data = await response.json();
-                    if (data.examinees) globalPortalData.examinees = data.examinees;
+                    // Na-update para basahin ang array mula sa database.json ng bot
+                    if (Array.isArray(data)) {
+                        globalPortalData.examinees = data;
+                    } else if (data.examinees) {
+                        globalPortalData.examinees = data.examinees;
+                    }
                 }
             } catch (error) {
                 console.log("Gumagamit ng local fallback data o naghihintay ng JSON sync mula sa bot.");
