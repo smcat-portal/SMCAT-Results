@@ -1,18 +1,1 @@
-{
-  "examinees": [
-    {
-      "username": "kye",
-      "applicantNo": "2026-SMC-7919",
-      "score": 56,
-      "status": "PASSED",
-      "date": "Sep 15, 2026"
-    },
-    {
-      "username": "Kian",
-      "applicantNo": "2026-SMC-8323",
-      "score": 66,
-      "status": "PASSED",
-      "date": "Sep 15, 2026"
-    }
-  ]
-}
+[]
