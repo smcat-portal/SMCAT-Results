@@ -9,5 +9,16 @@
     "timezone_division": "f",
     "reason": "f",
     "timestamp": "2026-10-19 12:06:17"
+  },
+  {
+    "type": "enrollment",
+    "discord_id": 1222498353150033992,
+    "discord_username": "beedmonkey",
+    "username": "d",
+    "roblox_link": "f",
+    "age": "f",
+    "timezone": "f",
+    "division": "fff",
+    "timestamp": "2026-10-19 13:14:00"
   }
 ]
